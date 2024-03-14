@@ -6,11 +6,17 @@
             .menu {
                 text-decoration: none;
                 padding: 10px;
+                box-sizing: border-box;
             }
             .menu:hover {
                 border-bottom-style: solid;
                 border-bottom-color: brown;
                 border-bottom-width: 4px;
+            }
+            #trangchu{
+                background-color: lawngreen;
+                padding: 15px;
+                box-sizing: border-box;
             }
             .dsbaiviet {
                 display: grid;
@@ -26,6 +32,9 @@
                 background-color: blue;
                 color: white;
                 border-radius: 6px;
+                border: solid;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
             }
             .nutbam:hover {
                 background-color: chartreuse;
@@ -63,7 +72,7 @@
         <link rel="stylesheet" href="dsbaiviet_thanhtung.css">
     </head>
     <body>
-        <div style="margin-bottom: 20px;">
+        <div id="trangchu">
             <a class="menu" href="#">Trang chủ</a>
             <a class="menu" href="#">Động vật có vú</a>
             <a class="menu" href="#">Chim chóc</a>
